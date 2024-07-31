@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Judson', serif;
+}
+
+body {
+    background-color: #6C8BA5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 80vw;
+    max-width: 1200px;
+    background-color: #9398AD;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2D2D2D;
+    text-align: center;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #9398AD;
+    border-radius: 8px;
+    padding: 20px;
+    color: #1F1F1F;
+    text-align: center;
+}
+
+.info-container h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 22px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+}
+
+.info-content p {
+    margin: 0;
+    padding: 10px;
+    max-width: 80%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    width: auto;
+    margin-left: 20px;
+}
+
+.footer h4 {
+    margin: 0 0 5px 0;
+}
+
+.footer p {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+}
