@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Judson', serif;
+}
+
+body {
+    background-color: #6C8BA5;
+    background-image: url('/img/duotone fundo.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #82A38E;
+    padding: 10px;
+    color: #3B5866;
+    font-size: 30px;
+    border-radius: 90px;
+    margin: 10px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icone img {
+    width: 60px;
+    height: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.caixa {
+    background-color: #82A38E;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    top: -100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.caixa h2 {
+    font-size: 50px;
+    color: #D8DDD0;
+    margin-top: 30px;
+}
+
+.connect {
+    color: #333333;
+    font-size: 50px;
+    margin-bottom: 20px;
+}

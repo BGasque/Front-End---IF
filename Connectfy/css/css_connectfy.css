@@ -1,0 +1,144 @@
+.header {
+    background-color: #9398AD;
+    border-radius: 90px;
+    margin: 10px;
+}
+
+.header2 {
+    background-color: #9398adc4;
+    border-radius: 30px;
+    margin: 0 80px;
+}
+
+#pesquisa {
+    display: flex;
+    align-items: center;
+    color: #1F4096;
+}
+
+#pesquisa img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+#pesquisa p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer {
+    background: linear-gradient(to top, black, #131F33);
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Judson', serif;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: nowrap;
+    margin-bottom: 80px;
+}
+
+.gridd {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #1F4096;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.gridd > div:nth-child(1) {
+    grid-column: 1 / -1;
+}
+
+.texto {
+    justify-self: center;
+    background-image: url("/img/Rectangle\ 18.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #7185AB;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.imagem > img {
+    width: 80%;
+    height: auto;
+}
+
+.icone > img {
+    margin: 20px;
+    width: 101px;
+    height: 101px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: #3B5866;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+    .header2 {
+        margin: 0 40px;
+    }
+
+    .grid {
+        margin: 10px;
+        margin-bottom: 60px;
+    }
+
+    .gridd {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 90%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .icone {
+        font-size: 30px;
+    }
+
+    .icone > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
